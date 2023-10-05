@@ -1,1 +1,1 @@
-document.write("hello world")
+document.getElementById("nome")?.innerHTML

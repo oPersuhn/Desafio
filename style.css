@@ -1,0 +1,20 @@
+header{
+    text-align: center;
+}
+#section-qst{
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+#form-qst{
+    background-color: black;
+    padding: 10%;
+}
+.input{
+    margin: 2%;
+}
+#section-dados{
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
