@@ -9,20 +9,33 @@
 </head>
 <body>
     <header>
-        <h1>Cadastro de vacinas</h1>
+        <h1>Cantrole de vacinação</h1>
     </header>
-    <section id="section-qst">
-        <form id="form-qst">
+    <section id="section-cadastro">
+    <div name="cadastro" class="conteudo">    
+        <h1 class="h1">Cadastro</h1>
+        <form id="form-cadastro">
+            <label for="nome"class="label">Nome</label>
             <input type="text" id="nome" class="input" placeholder="Nome">
+            <br>
+            <label for="nome"class="label">Certificado de Pessoa Física</label>
             <input type="text" id="cpf" class="input" placeholder="Cpf">
+            <br>
+            <label for="nome"class="label">Data de nascimento</label>
             <input type="text" id="nascimento" class="input" placeholder="Data de nascimento">
+            <br>
+            <label for="nome"class="label">Nome da vacina</label>
             <input type="text" id="nome-vacina" class="input" placeholder="Nome da vacina">
+            <br>
+            <label for="nome"class="label">Data de vacinação</label>
             <input type="text" id="data-vacina" class="input" placeholder="Data de vacinação">
         </form>
-        
+    </div>
     </section>
     <section id="section-dados">
-        <div id="dados">
+        <div name="dados" class="conteudo"></div>
+        <h1 class="h1">Informações</h1>
+        
             <ul id="lista"></ul>
         </div>
     </section>
