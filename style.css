@@ -31,5 +31,8 @@ header{
 .conteudo{
     background-color: gray;
     padding: 1%;
-    
+}
+.button{
+    color: white;
+    background-color: gray;
 }

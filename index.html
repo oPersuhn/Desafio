@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,38 +8,45 @@
     <title>Desafio
     </title>
 </head>
+
 <body>
     <header>
-        <h1>Cantrole de vacinação</h1>
+        <h1>Controle de vacinação</h1>
     </header>
-    <section id="section-cadastro">
-    <div name="cadastro" class="conteudo">    
-        <h1 class="h1">Cadastro</h1>
-        <form id="form-cadastro">
-            <label for="nome"class="label">Nome</label>
-            <input type="text" id="nome" class="input" placeholder="Nome">
-            <br>
-            <label for="nome"class="label">Certificado de Pessoa Física</label>
-            <input type="text" id="cpf" class="input" placeholder="Cpf">
-            <br>
-            <label for="nome"class="label">Data de nascimento</label>
-            <input type="text" id="nascimento" class="input" placeholder="Data de nascimento">
-            <br>
-            <label for="nome"class="label">Nome da vacina</label>
-            <input type="text" id="nome-vacina" class="input" placeholder="Nome da vacina">
-            <br>
-            <label for="nome"class="label">Data de vacinação</label>
-            <input type="text" id="data-vacina" class="input" placeholder="Data de vacinação">
-        </form>
-    </div>
-    </section>
-    <section id="section-dados">
-        <div name="dados" class="conteudo"></div>
-        <h1 class="h1">Informações</h1>
+
+    <main>
+
+        <section id="section-cadastro">
+            <div name="cadastro" class="conteudo">
+                <h1 class="h1">Cadastro</h1>
+                <form id="form-cadastro">
+                    <label for="nome" class="label">Nome</label>
+                    <input type="text" id="nome" class="input" placeholder="Nome" required>
+                    <br>
+                    <label for="nome" class="label">Certificado de Pessoa Física</label>
+                    <input type="text" id="cpf" class="input" placeholder="CPF" required>
+                    <br>
+                    <label for="nome" class="label">Data de nascimento</label>
+                    <input type="text" id="nascimento" class="input" placeholder="Data de nascimento" required>
+                    <br>
+                    <label for="nome" class="label">Nome da vacina</label>
+                    <input type="text" id="nomeVacina" class="input" placeholder="Nome da vacina" required>
+                    <br>
+                    <label for="nome" class="label">Data de vacinação</label>
+                    <input type="text" id="dataVacina" class="input" placeholder="Data de vacinação" required>
+                    <button type="submit" class="button">Salvar</button>
+                </form>
+            </div>
+        </section>
         
+        <section id="section-dados">
+            <div name="dados" class="conteudo"></div>
+            <h1 class="h1">Informações</h1>
             <ul id="lista"></ul>
-        </div>
-    </section>
+            </div>
+        </section>
+    </main>
     <script src="script.js"></script>
 </body>
+
 </html>
