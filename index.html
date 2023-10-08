@@ -10,10 +10,11 @@
 </head>
 
 <body>
-    <header>
-        <h1>Controle de vacinação</h1>
-    </header>
-
+    <div id="container">
+        <div id="boxhead">
+            <h1 id="h1primario">Controle de vacinação</h1>
+        </div>
+    </div>
     <main> <!-- -->
 
         <section id="section-cadastro"> <!-- -->
@@ -24,7 +25,7 @@
                     <input type="text" id="nome" class="input" placeholder="Nome" required>
                     <br>
                     <label for="nome" class="label">Certificado de Pessoa Física</label>
-                    <input type="text" id="cpf" class="input" placeholder="CPF" required>
+                    <input type="text" id="cpf" class="input" placeholder="CPF" required autocomplete="off" maxlength="14">
                     <br>
                     <label for="nome" class="label">Data de nascimento</label>
                     <input type="date" id="nascimento" class="input" placeholder="Data de nascimento" required>
@@ -36,7 +37,7 @@
                     <input type="date" id="dataVacina" class="input" placeholder="Data de vacinação"
                         pattern="\d{4}-\d{2}-\d{2}" title="Digite a data no formato YYYY-MM-DD"" required>
                     <div class=" button">
-                    <button type="submit">Salvar</button>
+                        <button type="submit">Salvar</button>
                     </div>
                 </form>
             </div>
@@ -51,7 +52,7 @@
             </div>
         </section>
     </main>
-    <script src="scriptts.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
