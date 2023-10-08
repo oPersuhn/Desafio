@@ -14,10 +14,10 @@
         <h1>Controle de vacinação</h1>
     </header>
 
-    <main>
+    <main> <!-- -->
 
-        <section id="section-cadastro">
-            <div name="cadastro" class="conteudo">
+        <section id="section-cadastro"> <!-- -->
+            <div name="cadastro" class="conteudo"> <!-- -->
                 <h1 class="h1">Cadastro</h1>
                 <form id="form-cadastro">
                     <label for="nome" class="label">Nome</label>
@@ -27,26 +27,31 @@
                     <input type="text" id="cpf" class="input" placeholder="CPF" required>
                     <br>
                     <label for="nome" class="label">Data de nascimento</label>
-                    <input type="text" id="nascimento" class="input" placeholder="Data de nascimento" required>
+                    <input type="date" id="nascimento" class="input" placeholder="Data de nascimento" required>
                     <br>
                     <label for="nome" class="label">Nome da vacina</label>
                     <input type="text" id="nomeVacina" class="input" placeholder="Nome da vacina" required>
                     <br>
                     <label for="nome" class="label">Data de vacinação</label>
-                    <input type="text" id="dataVacina" class="input" placeholder="Data de vacinação" required>
-                    <button type="submit" class="button">Salvar</button>
+                    <input type="date" id="dataVacina" class="input" placeholder="Data de vacinação"
+                        pattern="\d{4}-\d{2}-\d{2}" title="Digite a data no formato YYYY-MM-DD"" required>
+                    <div class=" button">
+                    <button type="submit">Salvar</button>
+                    </div>
                 </form>
             </div>
         </section>
-        
-        <section id="section-dados">
-            <div name="dados" class="conteudo"></div>
-            <h1 class="h1">Informações</h1>
-            <ul id="lista"></ul>
+
+        <section id="section-dados"> <!-- -->
+            <div class="conteudo"> <!-- -->
+                <h1 class="h1">Informações</h1>
+                <div id="div-style">
+                    <ul id="dadosList"></ul>
+                </div>
             </div>
         </section>
     </main>
-    <script src="script.js"></script>
+    <script src="scriptts.js"></script>
 </body>
 
 </html>

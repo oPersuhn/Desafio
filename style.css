@@ -8,7 +8,8 @@ header{
 }
 #form-cadastro{
     background-color: black;
-    padding: 10%;
+    padding: 5%;
+    padding-bottom: 3%;
 }
 .input{
     margin: 2%;
@@ -26,13 +27,30 @@ header{
 }
 .label{
     color: white;
-    text-align: left;
+    margin-left: 2%;
 }
 .conteudo{
     background-color: gray;
     padding: 1%;
 }
+#div-style{
+    background-color: black;
+    padding: 10%;
+    margin: 0 auto;
+  text-align: center;
+  color: white;
+  
+}
+.input{
+  width: 70%;
+  margin-left: 1%;
+}
 .button{
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    margin-top: 5%;
+}
+#dadosList{
     color: white;
-    background-color: gray;
 }
